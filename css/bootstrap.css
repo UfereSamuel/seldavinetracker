@@ -596,7 +596,10 @@ dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
-dt,
+dt,{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 dd {
   line-height: 1.42857143;
 }
@@ -3601,10 +3604,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: table-cell;
     width: 1%;
   }
+@media (min-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
   .nav-justified > li > a {
     margin-bottom: 0;
   }
-}
+}(min-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  .nav-justified > li > a {
+    margin-bottom: 0;
 .nav-tabs-justified {
   border-bottom: 0;
 }
