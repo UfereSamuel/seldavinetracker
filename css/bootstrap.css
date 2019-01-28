@@ -1439,7 +1439,10 @@ th {
 }
 .table > tbody + tbody {
   border-top: 2px solid #ddd;
-}
+}table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}table > tbody + tbody {
+  border-top: 2px solid #ddd;
 .table .table {
   background-color: #fff;
 }
