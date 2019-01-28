@@ -457,6 +457,11 @@ h4,
 .h4 {
   font-size: 18px;
 }
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
 h5,
 .h5 {
   font-size: 14px;
