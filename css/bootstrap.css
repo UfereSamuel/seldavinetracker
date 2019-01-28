@@ -5073,6 +5073,9 @@ a.list-group-item-danger.active:focus {
 .well-lg {
   padding: 24px;
   border-radius: 6px;
+}.well-lg {
+  padding: 24px;
+  border-radius: 6px;
 }
 .well-sm {
   padding: 9px;
