@@ -596,7 +596,10 @@ dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
-dt,
+dt,{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 dd {
   line-height: 1.42857143;
 }
@@ -1436,7 +1439,10 @@ th {
 }
 .table > tbody + tbody {
   border-top: 2px solid #ddd;
-}
+}table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}table > tbody + tbody {
+  border-top: 2px solid #ddd;
 .table .table {
   background-color: #fff;
 }
@@ -3601,10 +3607,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: table-cell;
     width: 1%;
   }
+@media (min-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
   .nav-justified > li > a {
     margin-bottom: 0;
   }
-}
+}(min-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  .nav-justified > li > a {
+    margin-bottom: 0;
 .nav-tabs-justified {
   border-bottom: 0;
 }
@@ -5033,6 +5048,10 @@ a.list-group-item-danger.active:focus {
 }
 .panel-danger > .panel-footer + .panel-collapse .panel-body {
   border-bottom-color: #ebccd1;
+}.panel-danger > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #ebccd1;
+}.panel-danger > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #ebccd1;
 }
 .well {
   min-height: 20px;
@@ -5047,8 +5066,14 @@ a.list-group-item-danger.active:focus {
 .well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, .15);
+}.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, .15);
 }
 .well-lg {
+  padding: 24px;
+  border-radius: 6px;
+}.well-lg {
   padding: 24px;
   border-radius: 6px;
 }
